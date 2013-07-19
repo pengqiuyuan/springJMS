@@ -20,3 +20,11 @@ ptp时的destination我们叫queue
 pub/sub时的destination我们叫topic
 
 持久订阅
+
+先启动activeMQ
+
+$ cd ./async/message-listener
+$ mvn -Pproducer exec:java
+
+$ cd ./async/message-listener
+$ mvn -Pproducer exec:java
